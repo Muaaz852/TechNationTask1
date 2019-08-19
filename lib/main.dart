@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'package:tech_nation_task_1/home_page.dart';
+
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
@@ -10,7 +12,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      //home:
+      home: HomePage(),
     );
   }
 }
